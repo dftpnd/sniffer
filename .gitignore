@@ -1,0 +1,44 @@
+# Java / IDE
+target/
+build/
+out/
+*.class
+*.log
+*.tmp
+*.tmp~
+*.swp
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradle / Maven
+.gradle/
+mvnw/
+mvnw.cmd
+# Если вы используете Gradle Wrapper, держите сами wrapper-файлы в репозитории:
+gradlew
+gradlew.bat
+gradle/
+
+# Логи и кэш
+*.log
+*.tmp
+*.tmp.*
+
+# Артефакты сборки
+**/*.jar
+**/*.war
+**/*.ear
+
+# Другие временные / локальные файлы
+*.tmp*
+*.bak
+*.backup
